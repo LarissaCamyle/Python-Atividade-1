@@ -97,8 +97,7 @@ def validar_input(input):
 #Cadastro-------------------
 
 #lista de restaurantes
-restaurantes = [{'nome':'Poletto', 'categoria':'Massas', 'status':True},
-                {'nome':'Madero', 'categoria':'Massas', 'status':False}]
+restaurantes = [{'nome':'Poletto', 'categoria':'Massas', 'status':True}, {'nome':'Madero', 'categoria':'Massas', 'status':False}]
 
 def cadastrar_novo_restaurante():
     ''' Essa função é resposável por criar um novo restaurante
@@ -193,7 +192,6 @@ def main():
 if __name__ == '__main__':
     ''' Transforma o arquivo atual (App.py) no arquivo principal do código'''
     main()
-
 
 
 
